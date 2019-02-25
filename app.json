@@ -1,0 +1,22 @@
+{
+  "name": "heroku-functions-example",
+  "description": "You write the routes; we'll write the server.",
+  "keywords": [
+    "faas",
+    "function as a service",
+    "heroku",
+    "nodejs",
+    "koa"
+  ],
+  "repository": "https://github.com/jmonster/heroku-as-a-function",
+  "logo": "http://aux.iconspalace.com/uploads/bart-simpson-bartman-icon-256.png",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jmonster/heroku-as-a-function"
+    }
+  ]
+}
